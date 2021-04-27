@@ -8,7 +8,6 @@ List of COVID Symptoms
 	- Nasal-Congestion	
 	- Runny-Nose	
 	- Diarrhea	
-	- None
 	
 List of Preexisting Conditions
 	- Kidney disease
