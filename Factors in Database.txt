@@ -1,0 +1,31 @@
+List of COVID Symptoms
+	- Fever	
+	- Tiredness	
+	- Dry-Cough	
+	- Difficulty-in-Breathing
+	- Sore-Throat	
+	- Pains	
+	- Nasal-Congestion	
+	- Runny-Nose	
+	- Diarrhea	
+	- None
+	
+List of Preexisting Conditions
+	- Kidney disease
+	- Lung Disease
+	- Obesity
+	- Immunocompromised
+	- Heart Condition
+	
+Age Range
+	- Age_0-9	
+	- Age_10-19	
+	- Age_20-24	
+	- Age_25-59	
+	- Age_60+
+	
+Possible OutComes
+	- Severity_Mild	
+	- Severity_Moderate	
+	- Severity_None	
+	- Severity_Severe
