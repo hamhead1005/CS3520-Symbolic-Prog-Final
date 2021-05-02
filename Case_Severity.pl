@@ -33,10 +33,20 @@ severity('Low',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
     PH = n,
     PL = n,!.
 
-
 %Mapping for those with "Mild" Severity%
 
 
 
 
 %Mapping for those with "Severe" Severity%
+
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(60),
+    (SR = n; SR=y),
+    SC = y,
+    (SF = n; SF = y),
+    SB = y,
+    (PO = y; PO = n),
+    (PI = n; PI = y),
+    (PH = n; PH = y),
+    PL = y,!.
