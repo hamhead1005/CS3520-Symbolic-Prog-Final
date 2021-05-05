@@ -283,3 +283,48 @@ severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
     (PI = y),
     (PH = n; PH = y),
     (PL = y),!. %Tested
+
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    (A=(0-9) ; A=(10-30) ; A=(30-59) ; A=(60)),
+    (SR = n),
+    (SC = y),
+    (SF = n),
+    (SB = y),
+    (PO = n; PO = y), 
+    (PI = n),
+    (PH = n),
+    (PL = y),!.
+
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-30),
+    (SR = n ; SR = y),
+    (SC = y),
+    (SF = y),
+    (SB = y),
+    (PO = n ; PO = y), 
+    (PI = y),
+    (PH = n ; PH = y),
+    (PL = y),!.
+    
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(30-59),
+    (SR = y),
+    (SC = n ; SC = y),
+    (SF = y),
+    (SB = n),
+    (PO = n ; PO = y), 
+    (PI = y),
+    (PH = n),
+    (PL = n),!.
+
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(30-59),
+    (SR = n ; SR = y),
+    (SC = y),
+    (SF = y),
+    (SB = y),
+    (PO = n ; PO = y), 
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
+    (PL = n ; PL = y),!.
+    
