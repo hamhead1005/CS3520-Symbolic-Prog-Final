@@ -3,3 +3,5 @@ Sources used:
 - https://www.kaggle.com/iamhungundji/covid19-symptoms-checker
 
 - https://www.cdc.gov/media/releases/2020/p0625-update-expands-covid-19.html
+
+- https://www.tutorialspoint.com/prolog/prolog_backtracking.htm
