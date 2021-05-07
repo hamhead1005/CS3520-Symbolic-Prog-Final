@@ -1,13 +1,10 @@
 List of COVID Symptoms
-	- Fever	
-	- Tiredness	
+	- Fever		
 	- Dry-Cough	
 	- Difficulty-in-Breathing	
 	- Runny-Nose	
-	- none	
 	
 List of Preexisting Conditions
-	- none
 	- Lung Disease
 	- Obesity
 	- Immunocompromised
@@ -15,11 +12,10 @@ List of Preexisting Conditions
 	
 Age Range
 	- Age_0-9	
-	- Age_10-30	
-	- Age_30-59		
+	- Age_10-59	
 	- Age_60+
 	
 Possible OutComes
 	- Severity_Mild	
-	- Severity_None	
+	- Severity_Low
 	- Severity_Severe
