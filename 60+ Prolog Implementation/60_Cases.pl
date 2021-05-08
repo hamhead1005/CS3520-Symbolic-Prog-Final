@@ -47,6 +47,18 @@ severity('Low',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
     PH = n,
     PL = n,!. %Tested
 
+severity('Low',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    (A=(60)),
+    (SR = n; SR=y),
+    SC = n,
+    SF = n,
+    SB = n,
+    (PO = y; PO = n),
+    (PI = n; PI = y),
+    (PH = n; PH = y),
+    (PL = n; PL = y),!.
+
+
 %Mapping for those with "Mild" Severity%
 
 severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
