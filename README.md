@@ -32,8 +32,10 @@ Below are the instructions on how to run the program.
 		- Case = 'Low'
 		- Case = 'Mild'
 		- Case = 'Severe'
+		- Case = 'False'
 		
 4. Interpret Results
 	- If you get 'Low' you are ok to stay home.
 	- If you get 'Mild' you need to contact a doctor.
 	- If you get 'Severe' you need to go to the hospital immediately or call for an ambulance.
+	- If you get 'False' based on your input a severity could not be determined.
