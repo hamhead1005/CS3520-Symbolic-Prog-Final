@@ -25,7 +25,7 @@ Below are the instructions on how to run the program.
 		- Options include:
 			- 0-9.
 			- 10-59.
-			- 60. (Note: used for 60+ ages)
+			- Note: use 60. for ages 60+)
 	- Use y. or n. to answer any questions about what symptoms you have.
 	- Use y. or n. to answer any questions about what Preconditions you have.
 	- The program will then output your case result
