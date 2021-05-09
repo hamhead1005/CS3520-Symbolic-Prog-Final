@@ -14,7 +14,7 @@ Below are the instructions on how to run the program.
 	
 2. Load the COVID_Severity_Predictor.pl program.
 	- Start SWI Prolog
-	- Click File -> Consult -> find the COVID_Severity_Predictor.pl File.
+	- Click File -> Consult -> find the COVID_Severity_Predictor.pl File that you downloaded from our git-hub.
 		- If program loaded correctly you will see a green message with the directory of the file the time it took to compile and x amount of clauses.
 		
 3. Using the Program.
