@@ -5,3 +5,7 @@ Sources used:
 - https://www.cdc.gov/media/releases/2020/p0625-update-expands-covid-19.html
 
 - https://www.tutorialspoint.com/prolog/prolog_backtracking.htm
+
+- https://searchcio.techtarget.com/definition/knowledge-based-systems-KBS#:~:text=A%20knowledge%2Dbased%20system%20(KBS,experts%20to%20support%20decision%2Dmaking.&text=The%20typical%20architecture%20of%20a,base%20and%20an%20inference%20engine.
+
+- https://en.wikipedia.org/wiki/Rule_of_inference , https://en.wikipedia.org/wiki/Prolog
