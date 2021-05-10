@@ -33,6 +33,19 @@ check(D) :-
     write('If "Severe" go to the hospital.'), nl,
     severity(D,A,SR,SC,SF,SB,PO,PI,PH,PL).
 
+%Mapping for those with "Low" Severity%
+
+severity('Low',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = n ; SR = y),
+    (SC = n ; SC = y),
+    (SF = n ; SF = y),
+    (SB = n),
+    (PO = n ; PO = y),
+    (PI = n),
+    (PH = n),
+    (PL = n),!.
+
 %Mapping for those with "Mild" Severity%
 
 severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
