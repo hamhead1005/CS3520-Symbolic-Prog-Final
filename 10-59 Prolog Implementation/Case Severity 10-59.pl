@@ -54,7 +54,29 @@ severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
     (SB = n),
     (PO = n ; PO = y),
     (PI = n),
-    (PH = y),
+    (PH = n ; PH = y),
+    (PL = n),!.
+
+severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = y),
+    (SC = y),
+    (SF = y),
+    (SB = n),
+    (PO = n ; PO = y),
+    (PI = n),
+    (PH = n),
+    (PL = n ; PL = y),!.
+
+severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = y),
+    (SC = n ; SC = y),
+    (SF = n ; SF = y),
+    (SB = y),
+    (PO = n),
+    (PI = n),
+    (PH = n),
     (PL = n),!.
 
 severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
@@ -63,9 +85,108 @@ severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
     (SC = y),
     (SF = n),
     (SB = n),
-    (PO = y),
-    (PI = y),
-    (PH = y),
+    (PO = n ; PO = y),
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
+    (PL = n ; PL = y),!.
+
+severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = n),
+    (SC = y),
+    (SF = n),
+    (SB = n),
+    (PO = n ; PO = y),
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
+    (PL = n ; PL = y),!.
+
+severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = n),
+    (SC = n),
+    (SF = n),
+    (SB = y),
+    (PO = n ; PO = y),
+    (PI = n),
+    (PH = n ; PH = y),
+    (PL = n),!.
+
+severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = n),
+    (SC = n),
+    (SF = y),
+    (SB = n),
+    (PO = n ; PO = y),
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
+    (PL = n ; PL = y),!.
+
+severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = y),
+    (SC = n),
+    (SF = n),
+    (SB = n),
+    (PO = n ; PO = y),
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
+    (PL = n ; PL = y),!.
+
+severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = n),
+    (SC = y),
+    (SF = y),
+    (SB = n),
+    (PO = n ; PO = y),
+    (PI = n),
+    (PH = n),
+    (PL = n ; PL = y),!.
+
+severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = n),
+    (SC = n),
+    (SF = y),
+    (SB = y),
+    (PO = n ; PO = y),
+    (PI = n),
+    (PH = n),
+    (PL = n),!.
+
+severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = y),
+    (SC = n),
+    (SF = n),
+    (SB = y),
+    (PO = n ; PO = y),
+    (PI = n),
+    (PH = n),
+    (PL = n),!.
+
+severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = n),
+    (SC = y),
+    (SF = n),
+    (SB = y),
+    (PO = n ; PO = y),
+    (PI = n),
+    (PH = n),
+    (PL = n),!.
+
+severity('Mild',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = y),
+    (SC = n),
+    (SF = y),
+    (SB = n),
+    (PO = n ; PO = y),
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
     (PL = n ; PL = y),!.
 
 %Mapping for those with "Severe" Severity%
@@ -114,3 +235,101 @@ severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
     (PH = y),
     (PL = y),!.
 
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = y),
+    (SC = y),
+    (SF = y),
+    (SB = n),
+    (PO = n ; PO = y),
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
+    (PL = n ; PL = y),!.
+
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = y),
+    (SC = y),
+    (SF = y),
+    (SB = n),
+    (PO = y),
+    (PI = y),
+    (PH = y),
+    (PL = n),!.
+
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = n),
+    (SC = n),
+    (SF = n),
+    (SB = y),
+    (PO = n ; PO = y),
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
+    (PL = y),!.
+
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = n ; SR = y),
+    (SC = n ; SC = y),
+    (SF = y),
+    (SB = y),
+    (PO = n ; PO = y),
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
+    (PL = n ; PL = y),!.
+
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = n ; SR = y),
+    (SC = y),
+    (SF = y),
+    (SB = n ; SB = y),
+    (PO = n ; PO = y),
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
+    (PL = n ; PL = y),!.
+
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = y),
+    (SC = y),
+    (SF = n ; SF = y),
+    (SB = n ; SB = y),
+    (PO = n ; PO = y),
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
+    (PL = n ; PL = y),!.
+
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = y),
+    (SC = n ; SC = y),
+    (SF = n ; SF = y),
+    (SB = y),
+    (PO = n ; PO = y),
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
+    (PL = n ; PL = y),!.
+
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = y),
+    (SC = n ; SC = y),
+    (SF = y),
+    (SB = n ; SB = y),
+    (PO = n ; PO = y),
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
+    (PL = n ; PL = y),!.
+
+severity('Severe',A,SR,SC,SF,SB,PO,PI,PH,PL) :-
+    A=(10-59),
+    (SR = n ; SR = y),
+    (SC = y),
+    (SF = n ; SF = y),
+    (SB = y),
+    (PO = n ; PO = y),
+    (PI = n ; PI = y),
+    (PH = n ; PH = y),
+    (PL = n ; PL = y),!.
