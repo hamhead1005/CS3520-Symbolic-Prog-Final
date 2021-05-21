@@ -46,18 +46,18 @@ II. NEURAL NETWORK MODEL - PYTHON PROGRAM
 
 1. Setup a Python Environment for Deep Learning
 It is highly recommended to use Anaconda for these settings. Downloading Anaconda instructions could be found at https://www.anaconda.com/products/individual.
-Installing Anaconda already includes scikit-learn Library, but other deep learning libraries needs installing seperately. 
-Install the Theano deep learning library by typing: conda install theano
-Install the TensorFlow deep learning library by typing: conda install -c conda-forge tensorflow
-Install Keras by typing: pip install keras
+	Installing Anaconda already includes scikit-learn Library, but other deep learning libraries needs installing seperately. 
+	Install the Theano deep learning library by typing: conda install theano
+	Install the TensorFlow deep learning library by typing: conda install -c conda-forge tensorflow
+	Install Keras by typing: pip install keras
 
 2. Load the Files Related To the Model
 The dataset(modified).cvs is the dataset with only symptoms playing as indicators for the model (from the raw dataset, age ranges, gender, and country were eliminated). 
-The raw dataset includes 306K cases; the dataset used in the experiment is 11K-size. 
+	The raw dataset includes 306K cases; the dataset used in the experiment is 11K-size. 
 The running of the program requires keras_network.py and dataset1.cvs files. 
-Download those two files and put them in the directory specified when installing Anaconda. 
+	Download those two files and put them in the directory specified when installing Anaconda. 
 Then open the Anaconda Prompt and type: python keras_network.py
-It may take up to 5 minutes for the program to get the model ready before prompting inputs from active user. 
+	It may take up to 5 minutes for the program to get the model ready before prompting inputs from active user. 
 
 3. Interacting with the Program
 Please answer questions relating to symptoms with either "yes" or "no". The program allows the user to get as many trials as he wishes to. 
