@@ -53,12 +53,15 @@ Install Keras by typing: pip install keras
 
 2. Load the Files Related To the Model
 The dataset(modified).cvs is the dataset with only symptoms playing as indicators for the model (from the raw dataset, age ranges, gender, and country were eliminated). 
-The raw dataset includes 306K cases; the dataset used in the experiment is 11K-size. The running of the program requires keras_network.py and dataset1.cvs files. 
-Download those two files and put them in the directory specified when installing Anaconda. Then open the Anaconda Prompt and type: python keras_network.py
+The raw dataset includes 306K cases; the dataset used in the experiment is 11K-size. 
+The running of the program requires keras_network.py and dataset1.cvs files. 
+Download those two files and put them in the directory specified when installing Anaconda. 
+Then open the Anaconda Prompt and type: python keras_network.py
 It may take up to 5 minutes for the program to get the model ready before prompting inputs from active user. 
 
 3. Interacting with the Program
-Please answer questions relating to symptoms with either "yes" or "no". The program allows the user to get as many trials as he wishes to. After printing a result, the program asks if the user wants to get another prediction, and please enter "yes" for continue and "no" otherwise.
+Please answer questions relating to symptoms with either "yes" or "no". The program allows the user to get as many trials as he wishes to. 
+After printing a result, the program asks if the user wants to get another prediction, and please enter "yes" for continue and "no" otherwise.
 
 4. Interpret the Results
 The results could be interpreted the same way as the Proglog program does except that the Python program also provides the numerical probability for getting Covid. 
