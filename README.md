@@ -42,12 +42,18 @@ Below are the instructions on how to run the program.
 	- If you get 'Severe' you need to go to the hospital immediately or call for an ambulance.
 	- If you get 'False' based on your input a severity could not be determined.
 <br/>
-II. NEURAL NETWORK MODEL - PYTHON PROGRAM
+II. NEURAL NETWORK MODEL - PYTHON PROGRAM<br/><br/>
+
+The Keras, a high level API of TensorFlow 2 is used in building the neural network model in Python for the purpose of fast experimentation. Keras and TensorFlow 2 are compatible with: <br/>
+	- Python 3.5–3.8
+	- Ubuntu 16.04 or later
+	- Windows 7 or later
+	- macOS 10.12.6 (Sierra) or later. <br/>
 
 1. Setup a Python Environment for Deep Learning<br/><br/>
 It is highly recommended to use Anaconda for these settings. Downloading Anaconda instructions could be found at https://www.anaconda.com/products/individual.
 	- Installing Anaconda already includes scikit-learn Library, but other deep learning libraries needs installing seperately.
-	- Install the Theano deep learning library by typing: conda install theano
+	- Install the Theano deep learning library by typing: conda install theano 
 	- Install the TensorFlow deep learning library by typing: conda install -c conda-forge tensorflow
 	- Install Keras by typing: pip install keras
 	
